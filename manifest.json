@@ -3,7 +3,7 @@
   "action": {},
   "manifest_version": 3,
   "version": "0.1",
-  "description": "Tu dong nhan dien trang web https://teachersday.izone.edu.vn/ va tu dong binh chon trong khaong thoi gian tu 1p den 5p",
+  "description": "Tu dong nhan dien trang web https://teachersday.izone.edu.vn/ va tu dong binh chon trong khaong thoi gian tu 1p den 3p",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "service-worker.js"
@@ -13,5 +13,11 @@
       "matches": ["<all_urls>"],
       "js": ["js/auto.js"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
 }
