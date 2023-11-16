@@ -24,7 +24,7 @@ async function reddenPage() {
   if (url === homeUrl) {
     try {
       var min = 60,
-        max = 62;
+        max = 300;
       var randomTime = Math.floor(Math.random() * (max - min + 1) + min) * 1000; //Generate Random number between 5 - 10
 
       // click nav to display list user
