@@ -55,6 +55,12 @@ async function reddenPage() {
         )[0]
         .click();
 
+      await timeout(60000);
+      document
+        .getElementsByClassName(
+          "inline-flex items-center px-5 py-1.5 sm:px-6 sm:py-2 text-sm bg-primary-gradient border border-transparent rounded-full font-semibold text-center justify-center items-center  text-slate-800 !text-2xl tracking-wide !px-8 !py-4 uppercase leading-none"
+        )[0]
+        .click();
       //   await timeout(60000);
       //   console.log("cliick 3 ve trang chu");
       //   document
