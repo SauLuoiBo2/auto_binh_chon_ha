@@ -1,0 +1,17 @@
+{
+  "name": "Auto Binh chon cho Long",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Tu dong nhan dien trang web https://teachersday.izone.edu.vn/ va tu dong binh chon trong khaong thoi gian tu 1p den 5p",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/auto.js"]
+    }
+  ]
+}
